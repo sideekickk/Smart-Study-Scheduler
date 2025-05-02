@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+  --mainColor: #4279d1;
+  /* maybe use #277bff better more primary blue */
+  --mainColorDark: #3362a7;
+  --mainColorDarker: #254e86;
+  --secondaryColor: #77d63f;
+  --secondaryColorDark: #63b236;
+  --secondaryColorDarker: #508f2b;
+  --importantColor: #ffc107;
+  --importantColorDark: #e0a800;
+  --importantColorDarker: #d39e00;
+  --dangerColor: #dc3545;
+  --dangerColorDark: #c82333;
+  --dangerColorDarker: #bd2130;
+  --infoColor: #6c757d;
+  --infoColorDark: #5a6268;
+  --infoColorDarker: #545b62;
+  --textColor: #eee;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: var(--mainColor);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar-bg-color {
+  background-color: var(--mainColor);
+}
+
+.navbar-logo {
+  border: 0;
+}
+
+.card-container {
+  /* width: 90%;
+  max-width: 800px; */
+  margin: 5% auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  line-height: 1.5;
+  /* min-height: calc(100vh - 100px); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-primary.badge-info {
+  color: white;
+  background-color: var(--mainColor)!important;
+}
+
+.toast-container {
+  top: 30px;
+  bottom: 0;
+  position: sticky;
+}
+
+.toast-card {
+  font-size: 16pt;
+  max-width: fit-content;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.toast-card .btn-close {
+  /* background: transparent url("/favicon.ico"); */
+  border-width: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.toast-card-header-icon {
+  height: 30px;
+  width: 30px;
+  border-width: 0;
+}
+
+.toast-card-success {
+  background-color: #77d740;
+}
+
+.toast-card-warning {
+  background-color: #ffc107;
+}
+
+.toast-card-error {
+  background-color: #dc3545;
+}
+
+.card-title {
+  font-size: 1.75rem;
+}

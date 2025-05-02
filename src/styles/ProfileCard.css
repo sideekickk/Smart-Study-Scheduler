@@ -1,0 +1,125 @@
+.Profile-Card {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px 1px black;
+  overflow: hidden;
+  margin: 2rem auto;
+}
+
+.upper-container {
+  height: 150px;
+  background: #4279d1;
+  /* maybe use #277bff better more primary blue */
+}
+
+.image-container img {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 1rem auto 0 auto;
+  display: block;
+}
+
+img {
+  border: 2px solid #14a44d;
+}
+
+.lower_container {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lower_container h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.lower_container h3 {
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.lower_container h4 {
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.lower_container .Preferences {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower_container .Preferences h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.lower_container .Preferences h6 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.lower_container button {
+  margin: 2rem 0 0 0;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid #29335c;
+  padding: 0.6rem;
+  border-radius: 6px;
+  transition-duration: 0.5s;
+  animation: ease-in-out;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.lower_container button:hover {
+  background: #29335c;
+  transform: scale(1.1);
+  border: none;
+  color: white;
+}
+
+.Preferences h6 {
+  display: inline-block;
+}
+
+.title-in-preferences {
+  font-weight: bold;
+}
+
+.checkbox-holidays {
+
+}
+
+.btn-blue-planit {
+  background-color: var(--mainColor);
+  border-color: var(--mainColorDark);
+}
+
+.btn-blue-planit:hover {
+  background-color: var(--mainColorDark);
+  border-color: var(--mainColorDark);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active.btn-blue-planit:active {
+  background-color: var(--mainColorDarker);
+  border-color: var(--mainColorDarker);
+}
+ 
+
